@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    label{
+        font-size: large;
+        display: block;
+        margin-bottom: 5px;
+    }
+    input{
+        padding: 8px 20px;
+        margin-bottom: 12px;
+        outline: none;
+        border: 2px solid rgb(84, 84, 84);
+    }
+
+}
